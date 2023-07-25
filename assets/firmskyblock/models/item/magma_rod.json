@@ -1,0 +1,14 @@
+{
+    "parent": "minecraft:item/handheld_rod",
+    "textures": {
+        "layer0": "firmskyblock:item/magma_rod"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "cast": 1
+            },
+            "model": "firmskyblock:item/magma_rod_cast"
+        }
+    ]
+}
