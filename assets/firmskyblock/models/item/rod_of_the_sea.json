@@ -1,0 +1,14 @@
+{
+    "parent": "minecraft:item/handheld_rod",
+    "textures": {
+        "layer0": "firmskyblock:item/rod_of_the_sea"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "cast": 1
+            },
+            "model": "firmskyblock:item/rod_of_the_sea_cast"
+        }
+    ]
+}
